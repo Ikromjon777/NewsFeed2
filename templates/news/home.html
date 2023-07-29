@@ -14,7 +14,7 @@ Bosh sahifa
           {% for new in news %}
           <div class="single_iteam"> <a href="{{ new.get_absolute_url }}"> <img src="{{ new.image.url }}" alt=""></a>
             <div class="slider_article">
-              <h2><a class="slider_tittle" href="{{ new.get_absolute_url }}">{{ new.title }}</a></h2>
+              <h2><a class="slider_tittle" href="{{ new.get_absolute_url }}">{{ new.title }} </a></h2>
               <p>{{ new.body|truncatewords:25 }}</p>
             </div>
           </div>
