@@ -127,7 +127,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [ BASE_DIR / 'static' ]
 
-STATIC_ROOT = BASE_DIR / 'static' # deploy qilganimizda xamma static fayllar shuni ichiga saqlanadi. Bu papka avtomatichiskiy ochiladi
+STATIC_ROOT = BASE_DIR / 'staticfiles' # deploy qilganimizda xamma static fayllar shuni ichiga saqlanadi. Bu papka avtomatichiskiy ochiladi
 
 
 # rasmlarni joylash uchun media fayl yaratib oldik
