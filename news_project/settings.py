@@ -130,8 +130,9 @@ STATIC_ROOT = BASE_DIR / 'staticfiles' # deploy qilganimizda xamma static faylla
 
 
 # rasmlarni joylash uchun media fayl yaratib oldik
-MEDIA_URL = 'media/'
-MEDIA_ROOT  = BASE_DIR / 'media/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = str(BASE_DIR.joinpath('media'))
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
