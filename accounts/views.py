@@ -19,7 +19,7 @@ class Login(View):
     def post(self, request):
         form = LoginForm(data=request.POST)
         context = {
-            "   form": form,
+            "form": form,
         }
         if form.is_valid():
             username = request.POST['username']
